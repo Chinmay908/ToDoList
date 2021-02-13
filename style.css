@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.addItems{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+input{
+    font-size:2rem;
+    border-radius: 2px;
+    
+}
+#add{
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: blue;
+    color: white;
+}
+#response{
+    font-weight: bold;
+    font-size: 20px;
+    visibility: hidden;
+    background-color:aliceblue;
+    border: none;
+}
+#options{
+    display: block;
+visibility: visible;
+}
+#containner{
+    width: 470px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: left;
+    font-size: 20px;
+    color: grey;
+}
+#delete{
+    transform:translateY(8px);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight:bold;
+    margin-left: 410px;
+    overflow: hidden;
+
+}
+#edit{
+    
+    right: 520px;
+    margin: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:khaki;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 5px;  
+}
